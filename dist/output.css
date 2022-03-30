@@ -472,7 +472,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: grid;
 }
 
-.text-blue-500 {
+.h-screen {
+  height: 100vh;
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\.\.\/images\/mobile\/image-hero\.jpg\'\)\] {
+  background-image: url('../images/mobile/image-hero.jpg');
+}
+
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
